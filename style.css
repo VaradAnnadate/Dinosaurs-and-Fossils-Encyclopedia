@@ -150,6 +150,10 @@ button:hover {
 .periods-time{
     display: grid;
     background-color: rgb(0, 0, 0 , 0.3);
-    height: 725px;
+    height: 730px;
     border-radius: 15px;
+}
+
+.periods-title{
+    margin-top: 10px;
 }
