@@ -26,7 +26,6 @@ nav {
 
 .nav {
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -57,23 +56,19 @@ nav {
     font-size: 32px;
 }
 
-.title:hover {
-    cursor: pointer;
-}
-
 main {
-    width: 100vw;
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-    color: #FFFFFF;
-    font-family: 'Poppins', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    width: 100vw;
+    height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Images/Background.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
     padding: 0 20px;
 }
 
@@ -82,11 +77,11 @@ a {
     color: white;
 }
 
-h1 {
+main > h1 {
     display: block;
     font-size: 70px;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 p {
@@ -96,17 +91,17 @@ p {
 }
 
 button {
-    font-family: 'Poppins', sans-serif;
     background-color: #FFFFFF;
     color: #333;
+    font-family: 'Poppins', sans-serif;
     font-size: 20px;
     font-weight: 600;
     border-radius: 8px;
     border: none;
     padding: 12px 28px;
     cursor: pointer;
-    transition: 0.3s;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
 }
 
 button:hover {
@@ -115,13 +110,46 @@ button:hover {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
-/* @media (max-width: 768px) {
-    h1 {
-        font-size: 50px;
-    }
+.periods{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 
-    .nav {
-        flex-direction: column;
-        gap: 15px;
-    }
-} */
+#Eras > h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.periods img{
+    width: 20vw;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.periods p{
+    text-align: center;
+    font-weight: 300;
+    width: 30vw;
+    margin-bottom: 15px;
+}
+
+#Eras{
+    color: #FFFFFF;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Images/Period\ Background.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 75px;
+}
+
+.periods-time{
+    display: grid;
+    background-color: rgb(0, 0, 0 , 0.3);
+    height: 725px;
+    border-radius: 15px;
+}
