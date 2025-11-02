@@ -12,6 +12,9 @@ html {
 
 body {
     font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./Images/Body-Background.jpeg);
+    background-position: center;
+    background-size: cover;
 }
 
 nav {
@@ -19,7 +22,9 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(1, 1, 1, 0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
     padding: 10px 0px;
     z-index: 10;
 }
@@ -42,10 +47,11 @@ nav {
     transition: 0.3s;
     font-size: 16px;
     font-weight: 300;
+    transition: 0.35s;
 }
 
 .nav-links a:hover {
-    font-weight: 600;
+    transform: scale(1.3,1.3);
 }
 
 .title {
@@ -64,12 +70,11 @@ main {
     text-align: center;
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Images/Background.jpg);
     background-size: cover;
     background-position: center;
     color: #FFFFFF;
     font-family: 'Poppins', sans-serif;
-    padding: 0 20px;
+    padding: 0px 20px;
 }
 
 a {
@@ -96,18 +101,20 @@ button {
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     font-weight: 600;
-    border-radius: 8px;
+    border-radius: 10px;
     border: none;
     padding: 12px 28px;
     cursor: pointer;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    transition: 0.3s;
+    transition: 0.45s;
 }
 
 button:hover {
-    background-color: #f0f0f0;
-    transform: translateY(-2px);
+    transform:scale(1.2,1.2);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    color: #FFFFFF;
+    background-color: rgba(1, 1, 1, 0.2);
+    backdrop-filter: blur(10px);
 }
 
 .periods{
@@ -141,7 +148,6 @@ button:hover {
 #Eras{
     color: #FFFFFF;
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Images/Period\ Background.jpg);
     background-size: cover;
     background-position: center;
     padding-top: 75px;
@@ -149,11 +155,21 @@ button:hover {
 
 .periods-time{
     display: grid;
-    background-color: rgb(0, 0, 0 , 0.3);
-    height: 730px;
+    height: 735px;
+    width: 460px;
     border-radius: 15px;
+    background-color: rgba(1, 1, 1, 0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    transition: 0.45s;
+}
+
+.periods-time:hover{
+    transform:scale(1.05,1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    cursor:help;
 }
 
 .periods-title{
-    margin-top: 10px;
+    margin-top: 15px;
 }
