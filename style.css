@@ -114,7 +114,12 @@ button:hover {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
     color: #FFFFFF;
     background-color: rgba(1, 1, 1, 0.2);
+    /* background-color: rgba(256, 256, 256, 0.2); */
     backdrop-filter: blur(10px);
+}
+
+button:active{
+    transform: scale(1.1,1.1);
 }
 
 .periods{
@@ -133,9 +138,6 @@ button:hover {
 .periods img{
     width: 20vw;
     border-radius: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
 }
 
 .periods p{
@@ -156,12 +158,16 @@ button:hover {
 .periods-time{
     display: grid;
     height: 735px;
-    width: 460px;
+    width: 465px;
     border-radius: 15px;
-    background-color: rgba(1, 1, 1, 0.2);
+    background-color: rgba(256, 256, 256, 0.05);
     backdrop-filter: blur(10px);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
     transition: 0.45s;
+    grid-template-rows: 0.1fr 0.5fr auto;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
 }
 
 .periods-time:hover{
@@ -172,4 +178,16 @@ button:hover {
 
 .periods-title{
     margin-top: 15px;
+}
+
+.periods-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.periods-p{
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
