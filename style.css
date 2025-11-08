@@ -12,7 +12,16 @@ html {
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./Images/Body-Background.jpeg);
+}
+
+#page1-2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url(./Images/Body-Background.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+#page3-4{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(./Images/Body-Background2.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -190,4 +199,14 @@ button:active{
     display: flex;
     align-content: center;
     justify-content: center;
+}
+
+#gallery-page{
+    height: 100vh;
+    width: 100%;
+}
+
+#fossils-page{
+    height: 100vh;
+    width: 100%;
 }
