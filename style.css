@@ -166,21 +166,21 @@ button:active{
 
 .periods-time{
     display: grid;
-    height: 735px;
+    height: 700px;
     width: 465px;
     border-radius: 15px;
     background-color: rgba(256, 256, 256, 0.05);
     backdrop-filter: blur(10px);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
     transition: 0.45s;
-    grid-template-rows: 0.1fr 0.5fr auto;
+    grid-template-rows: 0.1fr 0.5fr 0fr;
     grid-template-columns: 1fr;
     justify-content: center;
     align-items: center;
 }
 
 .periods-time:hover{
-    transform:scale(1.05,1.05);
+    transform: scale(1.05,1.05)  translateY(-15px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
     cursor:help;
 }
