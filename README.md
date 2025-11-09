@@ -19,7 +19,9 @@ My submission for the S&W (Structures of the Web) INDIVIDUAL PROJECT at NST. Thi
 
 * CSS3: Used for all styling, including:
     * Flexbox (for the navigation bar and carousels)
+
     * Grid (for the Fossils page layout)
+    
     * Transitions & Pseudo-elements (for the card hover effects)
 
 ## 🧠 What I Learned
