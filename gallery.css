@@ -1,4 +1,10 @@
-.carousel{
+#page3-4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(./Images/Body-Background2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.carousel {
     width: 100%;
     overflow-x: auto;
     display: flex;
@@ -11,11 +17,11 @@
     padding-right: 3em;
 }
 
-.carousel::-webkit-scrollbar{
+.carousel::-webkit-scrollbar {
     display: none;
 }
 
-.card{
+.card {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
     transition: 0.45s;
     height: 40rem;
@@ -34,8 +40,8 @@
     isolation: isolate;
 }
 
-.card:hover{
-    transform:scale(1.05,1.05);
+.card:hover {
+    transform: scale(1.05, 1.05);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
     color: rgba(0, 0, 0, 0);
 }
@@ -49,8 +55,7 @@
 .mosa::before,
 .plesi::before,
 .plio::before,
-.dunk::before
-{
+.dunk::before {
     content: '';
     position: absolute;
     top: 0;
@@ -71,12 +76,11 @@
 .mosa:hover::before,
 .plesi:hover::before,
 .plio:hover::before,
-.dunk:hover::before
-{
+.dunk:hover::before {
     opacity: 0;
 }
 
-.t-rex{
+.t-rex {
     background-image: url(./Images/cards/t-rex.jpg);
 }
 
