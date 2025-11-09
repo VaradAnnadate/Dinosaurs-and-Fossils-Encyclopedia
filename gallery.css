@@ -16,20 +16,94 @@
 }
 
 .card{
-    background-color: rgba(256, 256, 256, 0.15);
-    backdrop-filter: blur(10px);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
     transition: 0.45s;
-    height: 40em;
-    border-radius: 0.5em;
-    padding: 1em;
+    height: 40rem;
+    border-radius: 15px;
+    padding: 1rem;
     text-align: center;
     align-content: center;
     flex: 0 0 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-weight: bold;
+    font-size: 65px;
+    position: relative;
+    isolation: isolate;
 }
 
 .card:hover{
     transform:scale(1.05,1.05);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-    cursor:help;
+    color: rgba(0, 0, 0, 0);
+}
+
+.t-rex::before,
+.stgsrs::before,
+.veloci::before,
+.tri::before,
+.ankly::before,
+.brach::before,
+.mosa::before,
+.plesi::before,
+.plio::before,
+.dunk::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+    border-radius: 15px;
+    opacity: 1;
+    transition: opacity 0.45s;
+    z-index: -1;
+}
+
+.t-rex:hover::before,
+.stgsrs:hover::before,
+.veloci:hover::before,
+.tri:hover::before,
+.mosa:hover::before,
+.plesi:hover::before,
+.plio:hover::before,
+.dunk:hover::before
+{
+    opacity: 0;
+}
+
+.t-rex{
+    background-image: url(./Images/cards/t-rex.jpg);
+}
+
+.stgsrs {
+    background-image: url(./Images/cards/stgsrs.jpg);
+}
+
+.veloci {
+    background-image: url(./Images/cards/veloci.jpg);
+}
+
+.tri {
+    background-image: url(./Images/cards/tri.jpg);
+}
+
+.mosa {
+    background-image: url(./Images/cards/mosa.jpg);
+}
+
+.plesi {
+    background-image: url(./Images/cards/plesi.jpg);
+}
+
+.plio {
+    background-image: url(./Images/cards/plio.jpg);
+}
+
+.dunk {
+    background-image: url(./Images/cards/dunk.jpg);
 }

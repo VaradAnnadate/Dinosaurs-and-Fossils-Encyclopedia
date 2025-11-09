@@ -15,7 +15,7 @@ body {
 }
 
 #page1-2{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url(./Images/Body-Background.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./Images/Body-Background.jpeg);
     background-position: center;
     background-size: cover;
 }
@@ -201,12 +201,12 @@ button:active{
     justify-content: center;
 }
 
-#gallery-page{
+#land-page{
     height: 100vh;
     width: 100%;
 }
 
-#fossils-page{
+#water-page{
     height: 100vh;
     width: 100%;
 }
