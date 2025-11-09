@@ -1,5 +1,5 @@
 # 🦕 Dinosaurs and Fossils Encyclopedia
-My submission for the S&W (Structures of the Web) INDIVIDUAL PROJECT at NST. This is a static, multi-page website built using only HTML5 and CSS3, focusing on modern layout techniques and responsive design.
+My submission for the S&W INDIVIDUAL PROJECT at NST. This is a static, multi-page website built using only HTML5 and CSS3, focusing on modern layout techniques and responsive design.
 
 ## ✨ Features
 * Multi-Page Navigation: A clean header navigating between the Home, Gallery, and Fossils pages.
@@ -21,7 +21,7 @@ My submission for the S&W (Structures of the Web) INDIVIDUAL PROJECT at NST. Thi
     * Flexbox (for the navigation bar and carousels)
 
     * Grid (for the Fossils page layout)
-    
+
     * Transitions & Pseudo-elements (for the card hover effects)
 
 ## 🧠 What I Learned
